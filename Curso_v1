@@ -1,0 +1,35 @@
+##################################################################
+######Curso de R y R Studio
+
+#####temario
+
+#### 1. Conociendo los paquetes y el uso general
+
+
+#R funciona de modo similar a Stata, su funcionamiento requiere de paquetes, 
+#no obstante hay una diferencia crucial, en tanto que en Stata los paquetes se instalan
+#en R hay que instalar los paquetes y luego "cargarlos a la librerías" lo anterior
+#a fin de que se puedan utilizar en el programa.
+#Para instalar se usa:
+#install.packages(c("foreign")) y para cargar library(foreign)
+
+library(foreign)
+??foreign
+library(doBy)
+??doBy
+library(reshape)
+?reshape
+library(data.table)
+?data.table
+library(stats)
+
+#Es necesario leer los mensajes que aparecen, no necesariamente son errores
+# a veces solamente son mensajes de actualización de un paquete o otra recomendación
+#Se puede
+
+## 2. Manejo de objetos
+
+# Traer de excel
+library(readxl)
+Hojaprueba <- read_excel("~/Documentos/Hojaprueba.xlsx",
+                         sheet = "hoja a exportar")
