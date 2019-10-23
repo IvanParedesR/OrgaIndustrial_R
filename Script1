@@ -1,0 +1,379 @@
+#Propuesta de Clases
+
+#### 1. Conociendo los paquetes y el uso general
+
+rm(list = ls())
+
+#En caso de que no se cuenten con estos paquetes se necesita instalarlos quitar el "#" y correr la instrucción
+#install.packages("pacman")
+#install.packages("foreign")
+#install.packages("doBy")
+#install.packages("reshape")
+#install.packages("data.table")
+#install.packages("stats")
+#install.packages("ggplot2")
+#Y ahora vamos a cargar los paquetes
+library(pacman)
+library(foreign)
+library(reshape)
+library(data.table)
+library(stats)
+library(ggplot2)
+
+#### 2. Funciones y operaciones 
+# + suma             < menos que           ! x  NO logico
+# - resta            > mas que             x & y Y logico
+# * multiplicacion   <= menor o igual      x && y id.
+# / division         >= mayor o igual      x | y logical OR
+# ^ potencia         == igual              x || y id.
+#!= diferente        xor(x, y) exclusivamente x o y
+
+1 / 200 * 30 #se pueden poner comentarios adjunto a la orden.
+(59 + 73 + 2) / 3 #suma
+3+rnorm(1) #se puede llamar el valor de una variable aleatoria que se distribuye normalmente y con media 1 
+4-3 == 1 #operacion logica
+sin(pi*pi / 2)
+sqrt(16)
+log(29)
+2^4
+2^4 < 1 #operacion logica
+log(5) #log(x) log base e de x
+exp(1.609438) #exp(x) antilog de x (ex)
+log(5,3) #log(x,n) log base n de x
+log10(5) #log10(x) log  base 10 de x
+sqrt(16) #sqrt(x) raiz cuadra de x
+factorial(5) #factorial(x) x! = x × (x ??? 1) × (x ??? 2)×· · ·×3 × 2
+ceiling(56.6) #redondeo de numeros
+trunc(5.6) #trunc(x) trUncar x entre x y 0, e.g. trunc(1.5) = 1, trunc(-1.5) = -1;
+round(54.652561257832, digits = 5) #round(x, digits=0) 
+signif(54.652561257832, digits=6) #signif(x, digits=6) 
+runif(10) #runif(n) genera una distribución uniforme con media 0 y dsv 1.
+abs(-5) 
+?abs
+
+## funciones trigonometricas
+
+cos(3.5) #cos(x) 
+sin(3.4) #sin(x) 
+tan(4.5) #tan(x) 
+acos(0.4) #acos(x), 
+asin(0.4)
+atan(5) #atan(x)
+acosh(5)
+asinh(5) 
+atanh(0.99) #para valores de 0 - 1
+
+
+### 3. Vectores y matrices
+
+vector <- c(4,5,6,7,2,1,2,6,7)
+
+log(vector) #muchas de las funciones y operaciones son analogas con vectores
+
+vector^2
+
+#Creamos matrices A, B, C, D, E e I. 
+
+A = matrix(c(2, 4, 3, 1, 5, 7), nrow=2, ncol=3) #creación de matrices
+A
+
+t(A) #transpone la matriz
+
+B = matrix(c(2, 4, 0, 1, 5, 1), nr=2, nc=3) 
+B
+
+C = matrix(c(2, 4, 3, 1, 5, 7), nrow=3, ncol=2)
+C
+
+cbind(t(C), A) #unimos C transpuesta con A columnas
+rbind(t(C), A) #unimos C transpuesta con A filas
+
+B %*% C #multipliación de matrices
+
+#matriz cuadrada
+
+D= matrix(c(2, 4, 3, 1, 5, 7, 0, 4, 5), nrow=3, ncol=3) #creación de matrices
+D
+
+#determinante
+det(D)
+
+#inversa
+DI <- solve(D)
+DI
+#matriz de ceros
+E <- matrix(0,3,3)
+E
+#matriz diagonal
+I <- diag(c(1,1,1))
+I
+
+#### 4. Marcos de datos
+
+#Se instala el paquete readxl
+#install.packages("readxl")
+#install.packages("tibble")
+#install.packages("foreign")
+
+#se llama al paquete readxl, no obstante existen otros muchos paquetes para leer datos en especifico, spss, stata
+#cvs u otros. Ahora trabajaremos con el de excel, aunque la estructura es similar en los demás
+library(readxl)
+library(tibble)
+library(foreign)
+
+#Llamar bases de datos 
+mtcars
+
+#ver la base completa
+View(mtcars)
+
+#Podemos obtener una serie de estadisticas respecto a la base antes mencionada:
+
+sum(mtcars$mpg) #suma de la variable, esto se puede utilizar para variables binarias y contar.
+prod(mtcars$mpg) #multiplicacion de la variable
+max(mtcars$mpg) #maximo de la serie
+min(mtcars$mpg) #minimo de la serie
+which.max(mtcars$mpg) #regresa el valor maximo de la serie
+which.min(mtcars$mpg) #regresa el valor minimo de la serie
+range(mtcars$mpg) #regresa los valores minimos y maximos de la serie 
+mean(mtcars$mpg) #media
+median(mtcars$mpg) #mediana
+length(mtcars$mpg) #numero de observaciones
+var(mtcars$mpg) #mide la varianza de la variable
+log(mtcars$mpg) # transforma la variable mpg de la base mtcars en logaritmo
+
+library(tidyverse)
+corte <- filter(mtcars, cyl == 6 | hp == 110) #hacemos un corte con esos valores
+View(corte)
+
+corte <- filter(mtcars, cyl == 6 & hp == 110) #hacemos un corte con esos valores
+View(corte)
+
+arrange(mtcars, mpg, cyl) #ordena ascendentemente
+
+select(mtcars, mpg, cyl) # se queda solamente con las variables que se mencionaron, borrando todo lo demás
+
+#### 5. Graficas
+
+# la grafica mas sencilla con puntos negros. En ella se grÃ¡fica X vs Y.
+ggplot(data = mtcars) +   
+  geom_point(mapping = aes(x = mpg, y = hp)) +
+  scale_x_continuous(name = "Variable de MPG") + #agregamos titulo y nombres de variables con estas 3 lineas
+  scale_y_continuous(name = "Caballos de fuerza") +
+  ggtitle("Grafica de la base de carros")
+?ggplot
+ggplot(data = mtcars) +   
+  geom_point(mapping = aes(x = mpg, y = hp, color = carb, size=qsec)) +
+  scale_color_continuous(name='Carburador') + #notese como se pone los nombres de los ejes, las etiquetas y
+  #las variables
+  scale_size_continuous(name='Torción por segundo') +
+  scale_x_continuous(name = "Variable de MPG") + 
+  scale_y_continuous(name = "Caballos de fuerza") +
+  ggtitle("Grafica de carros") +
+  theme_bw() #pone en blanco el fondo
+
+## le pone color al contorno de cada uno de los tipos de corte.
+ggplot(data = mtcars) + 
+  geom_bar(mapping = aes(x = carb ))+
+  scale_x_continuous(name = "Variable de MPG") + 
+  scale_y_continuous(name = "Total") +
+  ggtitle("Grafica de carros 2") 
+
+library(ggthemes)
+
+Eco <- ggplot(data = mtcars) +   
+  geom_point(mapping = aes(x = mpg, y = hp, size=qsec)) +
+  scale_size_continuous(name='Torción por segundo') +
+  scale_x_continuous(name = "Variable de MPG") + 
+  scale_y_continuous(name = "Caballos de fuerza") +
+  ggtitle("Grafica de carros")
+
+Eco + theme_stata() + scale_color_stata() +
+  ggtitle("Para los stateros del Poli")
+
+Eco + theme_excel(base_size = 12, base_family = "", horizontal = TRUE)+
+  ggtitle("Para los excelinos del Poli")
+
+##### 6. Mapas
+
+#install.packages("mapdata")
+#install.packages(c("ggplot2", "devtools", "dplyr", "stringr"))
+#install.packages(c("maps", "mapdata"))
+#install.packages(c("ggmap"))
+
+library(mapdata)
+library(ggplot2)
+library(ggmap)
+library(maps)
+
+if (!require("devtools")) {
+  install.packages("devtools")
+}
+devtools::install_github("diegovalle/mxmaps")
+
+#install.packages("units") 
+#install.packages("mxmaps")
+
+library("mxmaps")
+
+df_mxstate$value <- df_mxstate$pop
+View(df_mxstate)
+
+mxstate_choropleth(df_mxstate,
+                   title = "   Poblacion por estado") 
+
+
+##mapas de los estados
+View(df_mxmunicipio)
+df_mxmunicipio$politecnico <- 1
+df_mxmunicipio$politecnico[600:699]=0
+df_mxmunicipio$politecnico[250:279]=0
+df_mxmunicipio$politecnico[705]=0
+df_mxmunicipio$politecnico[707]=0
+
+df_mxmunicipio$value <- df_mxmunicipio$politecnico
+
+mxmunicipio_choropleth(df_mxmunicipio, 
+                   num_colors = 1, #se puede poner solamente 1
+                   zoom = c(09002:09017, 15001:15125),
+                   title = "Municipios",
+                   legend = "Ubicación")
+
+
+library(xlsx)
+write.xlsx(df_mxmunicipio, "D:/Users/iparedes/Documents/Clase 2 Comie/mydata.xlsx")
+
+### 7. Gráficas en 3D
+
+library(plotly)
+
+plot_ly(x=mtcars$mpg, y=mtcars$cyl, z=mtcars$hp, type="scatter3d", mode="markers")
+
+------------------------------------------------------------------------------------
+###Canacar
+
+#install.packages("ggfortify")
+
+library(tidyverse)
+library(readxl)
+
+#extraemos la base desde el archivo que les mande.
+#aqui deben instalar su 
+
+BaseCanacar <- read_excel("D:/Users/iparedes/Documents/Clase/BaseCanacar.xlsx",
+                          sheet = "Datos", skip = 1)
+View(BaseCanacar)
+
+
+#install.packages("Hmisc")
+library("Hmisc", lib.loc="~/R/R-3.5.1/library")
+library(ggfortify)
+
+ts(BaseCanacar$Y, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$LUB, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$LLAN, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$REFAC, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$DIES, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$COLUS, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$CICLO1, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$CICLO2, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$CICLO3, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$CICLO4, frequency = 12, start = c(2004, 1))
+ts(BaseCanacar$T, frequency = 12, start = c(2004, 1))
+
+View(BaseCanacar)
+
+ggplot(data=BaseCanacar, aes(x=T, y=Y, group = 1)) +
+  geom_line(color = ifelse(BaseCanacar$COLUS == 1, "red", "blue"))+
+  ggtitle("Sin tiempos para encabezados")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+BaseCanacar
+
+#Obtenemos las diferencias
+
+#diferencia de Y
+BaseCanacar$diferenciaY <- Lag(BaseCanacar$Y, +1)
+BaseCanacar$DY = BaseCanacar$Y-BaseCanacar$diferenciaY
+
+
+#diferencia de Lubricante
+BaseCanacar$diferenciaLUB <- Lag(BaseCanacar$LUB, +1)
+BaseCanacar$DLUB = BaseCanacar$LUB-BaseCanacar$diferenciaLUB
+
+#diferencia de LLantas
+BaseCanacar$diferenciaLLAN <- Lag(BaseCanacar$LLAN, +1)
+BaseCanacar$DLLAN = BaseCanacar$LLAN-BaseCanacar$diferenciaLLAN
+
+
+#diferencia de Refacciones
+BaseCanacar$diferenciaREFAC <- Lag(BaseCanacar$REFAC, +1)
+BaseCanacar$DREFAC = BaseCanacar$REFAC-BaseCanacar$diferenciaREFAC
+
+
+#diferencia de Diesel
+BaseCanacar$diferenciaDIES <- Lag(BaseCanacar$DIES, +1)
+BaseCanacar$DDIES = BaseCanacar$DIES-BaseCanacar$diferenciaDIES
+
+ts(BaseCanacar$DY, frequency = 12, start = c(2004, 1))
+
+# Gráfica con la diferencia
+ggplot(data=BaseCanacar, aes(x=T, y=DY, group = 1)) +
+  geom_line(color = ifelse(BaseCanacar$COLUS == 1, "red", "blue"))
+
+Reg1 = lm(BaseCanacar$DY ~ BaseCanacar$DLUB + BaseCanacar$DLLAN + BaseCanacar$DREFAC + BaseCanacar$DDIES + BaseCanacar$Q1 + BaseCanacar$Q2 + BaseCanacar$Q3 + BaseCanacar$Q4 + 0) 
+summary(Reg1)
+rrs1_ = sum(resid(Reg1)^2)
+
+Datacc <- filter(BaseCanacar, COLUS == 1) 
+View(Datacc)
+
+Regcc = lm(Datacc$DY ~ Datacc$DLUB + Datacc$DLLAN + Datacc$DREFAC + Datacc$DDIES + Datacc$Q1 + Datacc$Q2 + Datacc$Q3 + Datacc$Q4) 
+summary(Regcc)
+rrs3_ =sum(resid(Regcc)^2)
+
+Datasc <- filter(BaseCanacar, COLUS == 0) 
+View(Datasc)
+
+Regsc = lm(Datasc$DY ~ Datasc$DLUB + Datasc$DLLAN + Datasc$DREFAC + Datasc$DDIES + Datasc$Q1 + Datasc$Q2 + Datasc$Q3 + Datasc$Q4) 
+summary(Regsc)
+rrs2_ = sum(resid(Regsc)^2)
+
+Numerador_1 = (rrs1_-(rrs2_+rrs3_))/8
+Numerador_1
+Denominador_1 = ((rrs2_+rrs3_))/(113)
+Denominador_1
+
+Chow = Numerador_1/Denominador_1
+Chow
+
+#Valor F critico
+qf(.95, df1=8, df2=113)
+
+#p-value
+pf(q=Chow, df1=8, df2=113, lower.tail=FALSE)
+
+BaseCanacar$DY_s <- 0.398029 - 0.009522*BaseCanacar$DLUB +
+  0.023981*BaseCanacar$DLLAN - 0.053209*BaseCanacar$DREFAC - 0.031074*BaseCanacar$DDIES -
+  0.067652*BaseCanacar$Q1 - 0.072426*BaseCanacar$Q2 - 0.122348*BaseCanacar$Q3
+
+BaseCanacar$Y_s2 <- 0
+
+for (i in 57:79){BaseCanacar$Y_s2[i] <- BaseCanacar$DY_s[i] + BaseCanacar$Y_s2[i-1]}
+
+BaseCanacar$Y_s[BaseCanacar$COLUS == 0] <- BaseCanacar$Y
+
+for (i in 57:79){BaseCanacar$Y_s[i] <- BaseCanacar$Y_s[56] + BaseCanacar$Y_s2[i]}
+
+ggplot(data=BaseCanacar, aes(x=T, y=DY_s, group = 1)) +
+  geom_line(color = ifelse(BaseCanacar$COLUS == 1, "red", "blue")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+BaseCanacar$Mark <- (BaseCanacar$Y - BaseCanacar$Y_s)/BaseCanacar$Y_s
+
+cortecOLUS <- filter(BaseCanacar, COLUS == 1) #hacemos un corte con esos valores
+View(cortecOLUS)
+
+ggplot(data=cortecOLUS, aes(x=T, y=Mark, group = 1)) +
+  geom_line() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
