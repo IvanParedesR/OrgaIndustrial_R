@@ -12,7 +12,9 @@ rm(list = ls())
 #install.packages("data.table")
 #install.packages("stats")
 #install.packages("ggplot2")
+
 #Y ahora vamos a cargar los paquetes
+
 library(pacman)
 library(foreign)
 library(reshape)
