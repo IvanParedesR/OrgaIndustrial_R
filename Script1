@@ -23,6 +23,7 @@ library(stats)
 library(ggplot2)
 
 #### 2. Funciones y operaciones 
+
 # + suma             < menos que           ! x  NO logico
 # - resta            > mas que             x & y Y logico
 # * multiplicacion   <= menor o igual      x && y id.
@@ -123,37 +124,6 @@ library(readxl)
 library(tibble)
 library(foreign)
 
-#Llamar bases de datos 
-mtcars
-
-#ver la base completa
-View(mtcars)
-
-#Podemos obtener una serie de estadisticas respecto a la base antes mencionada:
-
-sum(mtcars$mpg) #suma de la variable, esto se puede utilizar para variables binarias y contar.
-prod(mtcars$mpg) #multiplicacion de la variable
-max(mtcars$mpg) #maximo de la serie
-min(mtcars$mpg) #minimo de la serie
-which.max(mtcars$mpg) #regresa el valor maximo de la serie
-which.min(mtcars$mpg) #regresa el valor minimo de la serie
-range(mtcars$mpg) #regresa los valores minimos y maximos de la serie 
-mean(mtcars$mpg) #media
-median(mtcars$mpg) #mediana
-length(mtcars$mpg) #numero de observaciones
-var(mtcars$mpg) #mide la varianza de la variable
-log(mtcars$mpg) # transforma la variable mpg de la base mtcars en logaritmo
-
-library(tidyverse)
-corte <- filter(mtcars, cyl == 6 | hp == 110) #hacemos un corte con esos valores
-View(corte)
-
-corte <- filter(mtcars, cyl == 6 & hp == 110) #hacemos un corte con esos valores
-View(corte)
-
-arrange(mtcars, mpg, cyl) #ordena ascendentemente
-
-select(mtcars, mpg, cyl) # se queda solamente con las variables que se mencionaron, borrando todo lo demás
 
 #### 5. Graficas
 
