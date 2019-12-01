@@ -1,6 +1,17 @@
 ###Canacar
 https://www.cofece.mx/cofece/phocadownload/PlaneacionE/cofece_evaluacion_mercado_de_autotransporte_de_carga.pdf
 
+#Evaluación del impacto de una práctica colusiva en el mercado de autotransporte de carga en México
+Andrés Aradillas López
+
+#Resumen
+#Durante un periodo que abarcó de septiembre de 2008 a junio de 2010, la Cámara Nacional de Autotransporte de Carga (CANACAR) y sus miembros se coludieron para
+#transferir los aumentos en el precio del combustible directamente a sus clientes a través del llamado Cargo por Ajuste de Combustible (CPAC). El presente documento estudia el
+#impacto de dicha práctica anticompetitiva en la evolución de precios y calcula el impacto resultante en el bienestar. La metodología gira en torno a la comparación estadística
+#entre el comportamiento observado en los precios y el contrafactual que hubiera sido esperado en la ausencia de la práctica anticompetitiva. Los resultados son consistentes
+#con un impacto medible y estadísticamente significativo de la conducta anticompetitiva en los precios observados durante el periodo de estudio.
+
+
 #install.packages("ggfortify")
 
 library(tidyverse)
