@@ -1,7 +1,7 @@
 #############################################################
 # This is the starting script to 'Spatial cooperation games'
 #############################################################
-
+https://tb.ethz.ch/education/learningmaterials/modelingcourse/level-2-modules/SCG.html
 # Implements a non-spatial PD
 
 ### set parameters
