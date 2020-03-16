@@ -1,0 +1,17 @@
+---
+title: "Game Theory Programming"
+author: "Iván Paredes"
+date: "15/3/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Teoría de Juegos programación
+
+El principal objetivo de la Teoría de Juegos es estudiar el comportamiento racional en situaciones de interacción (juego) entre agentes (jugadores) en las que los resultados están condicionados a las acciones de los agentes.
+
