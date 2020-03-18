@@ -15,3 +15,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 El principal objetivo de la Teoría de Juegos es estudiar el comportamiento racional en situaciones de interacción (juego) entre agentes (jugadores) en las que los resultados están condicionados a las acciones de los agentes.
 
+| Cabecera A | Cabecera B |
+| ---------- | ---------- |
+| Campo A1   | Campo B1   |
+| Campo A2   | Campo B2   |
+
+
+| Cabecera A | Cabecera B |
+| ---------- | ---------- |
+| Campo A1   | Campo B1   |
+| Campo A2   | Campo B2   |
+
+
+En la misma linea: $A = \pi*r^{2}$ 
+
+$$\mathbf{X} = \left[\begin{array}
+{rrr}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{array}\right]
+$$
