@@ -14,6 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Teoría de Juegos programación
 
+# Extensive-form games
+
 El principal objetivo de la Teoría de Juegos es estudiar el comportamiento racional en situaciones de interacción (juego) entre agentes (jugadores) en las que los resultados están condicionados a las acciones de los agentes.
 
 | Cabecera A | Cabecera B |
