@@ -6,45 +6,38 @@ output:
   pdf_document:
     toc: true
     toc_depth: 4
+bibliography: biblioGame.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Teoría de Juegos programación
 
-# Extensive-form games
+## Teoría de Juegos
 
 El principal objetivo de la Teoría de Juegos es estudiar el comportamiento racional en situaciones de interacción (juego) entre agentes (jugadores) en las que los resultados están condicionados a las acciones de los agentes.
 
-| Cabecera A | Cabecera B |
-| ---------- | ---------- |
-| Campo A1   | Campo B1   |
-| Campo A2   | Campo B2   |
+### Juegos en Forma extensiva
+
+the description in extensive form, which depicts the rules of the game, the order in which the players make their moves, the information available to players when they are called to take an action, the termination rules, and the outcome at any terminal point.[@hansen1990airline]
+
+### juegos en Forma estrategica
+
+### Estrategias mixtas
+
+### Equilibrio Cirrelacionado
 
 
-| Cabecera A | Cabecera B |
-| ---------- | ---------- |
-| Campo A1   | Campo B1   |
-| Campo A2   | Campo B2   |
+
+## Bibliografia
+#### Teoría de Juego
 
 
 
-## Teoría de Juegos programación
-
-En la misma linea: $A = \pi*r^{2}$ 
-
-$$\mathbf{X} = \left[\begin{array}
-{rrr}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{array}\right]
-$$
 
 
-### Teoría de Juegos programación
+### Teoría de Juego
 
 
-#### Teoría de Juegos programación
+#### Teoría de Juego
