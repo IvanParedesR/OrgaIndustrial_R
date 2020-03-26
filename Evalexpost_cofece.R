@@ -2,7 +2,7 @@
 https://www.cofece.mx/cofece/phocadownload/PlaneacionE/cofece_evaluacion_mercado_de_autotransporte_de_carga.pdf
 
 #Evaluación del impacto de una práctica colusiva en el mercado de autotransporte de carga en México
-Andrés Aradillas López
+#Andrés Aradillas López
 
 #Resumen
 #Durante un periodo que abarcó de septiembre de 2008 a junio de 2010, la Cámara Nacional de Autotransporte de Carga (CANACAR) y sus miembros se coludieron para
