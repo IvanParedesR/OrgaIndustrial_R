@@ -1,5 +1,5 @@
 # BLPestimatoR - Package for Demand Estimation
-
+# https://cran.r-project.org/web/packages/micEconAids/vignettes/micEconAids_vignette.pdf
 library(BLPestimatoR)
 nevos_model <- as.formula("share ~  price + productdummy |
     0+ productdummy |
