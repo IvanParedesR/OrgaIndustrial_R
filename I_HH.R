@@ -1,5 +1,6 @@
 # First, install the "hhi" package, then load the library
 #https://www.r-bloggers.com/a-new-package-hhi-for-quick-calculation-of-herfindahl-hirschman-index-scores/
+#https://github.com/pdwaggoner
 install.packages("hhi")
 library(hhi)
  
