@@ -12,7 +12,7 @@ bibliography: biblioGame.bib
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+#https://core.ac.uk/download/pdf/37773013.pdf
 
 ## Teoría de Juegos
 
