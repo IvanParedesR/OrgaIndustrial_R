@@ -1,0 +1,49 @@
+---
+title: "Organización Industrial"
+author: "Iván Paredes"
+date: "10/4/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Organización Industrial
+
+La Organización industrial  es un campo o área de conocimiento de teoría de la empresa que trata de los sistemas productivos y de la relación y límites entre las estructuras de las empresas y los mercados. Trata asuntos como la competencia perfecta, el costo de las transacciones, acción de gobierno o dirección.
+
+# Historia 
+
+Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores y estableció el paradigma conocido como: "Estructura-Conducta-Resultados" como el elemento básico de análisis y evaluación de los mercados y para investigar las relaciones entre la estructura industrial y los resultados obtenidos por el subsector correspondiente. economía de la información, las barreras de entrada de nuevas empresas en una situación de competencia imperfecta y monopolio.
+
+# Mercados
+Los mercados permiten a compradores y vendedores intercambiar bienes y servicios a cambio de un dinero pago. Los mercados vienen en una miríada de diferentes variedades. Algunos ejemplos son los agricultores locales.
+
+Estos mercados pueden existir en espacio físico o virtual.
+
+# Empresas y consumidores
+En esta sección, describimos cómo las empresas y los consumidores generalmente se modelan en la teoría de organización industrial. 
+
+## Empresas
+Las empresas son esencialmente asociado a un programa de maximización de ganancias y examinamos el componente de beneficios específicos de la empresa, es decir, su función de costos. Ingresos totales, el otro componente de ganancias, dependen de las preferencias de los consumidores (que determinan la demanda) y del tipo de interacción del mercado.
+
+## Los consumidores
+Los consumidores como tomadores de decisiones. Por lo general, suponemos que los consumidores son racionales en el sentido de que eligen lo que les gusta
+mejor. No tratamos situaciones en las que los consumidores eligen sistemáticamente lo que no está en su mejor interés, dada la información disponible en el momento en que tienen que tomar su decisión. Si bien esta suposición se hace ampliamente en los modelos económicos, puede cuestionarse fácilmente.
+Ciertamente, los consumidores cometen errores de vez en cuando. Es posible que quieran obtener un producto en particular, tome el equivocado del estante por error o haga un clic incorrecto al realizar un pedido desde un minorista en línea. Aunque los consumidores tienen la intención de elegir lo que más les gusta, pueden hacer errores sistemáticos en su toma de decisiones. Los economistas pueden lidiar con este tipo de error. Tal los errores (que son idiosincrásicos en la población) conducen a una heterogeneidad ex post entre consumidores.
+
+\(x^2 + y^2 = z^2\) 
+
+
+\[ x^n + y^n = z^n \]
+
+### Excedente del consumidor
+### Demanda de un bien discreto 
+
+### Utilidad de construcción a partir de la demanda
+#### Otras interpretaciones del excedente del consumidor
+
+# Equilibrio
+
+## Casos especiales
