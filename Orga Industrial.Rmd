@@ -47,3 +47,8 @@ Ciertamente, los consumidores cometen errores de vez en cuando. Es posible que q
 # Equilibrio
 
 ## Casos especiales
+
+## Subastas
+### Clasificación de las subastas
+### Diseño de la subasta
+####  Bases del concurso
