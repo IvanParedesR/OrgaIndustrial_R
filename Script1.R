@@ -2,7 +2,7 @@
 
 #### 1. Conociendo los paquetes y el uso general
 
-rm(list = ls())
+rm(list = ls()) #Limpiando el ambiente
 
 #En caso de que no se cuenten con estos paquetes se necesita instalarlos quitar el "#" y correr la instrucción
 #install.packages("pacman")
