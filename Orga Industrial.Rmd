@@ -21,6 +21,25 @@ Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores 
 Los mercados permiten a compradores y vendedores intercambiar bienes y servicios a cambio de un dinero pago. Los mercados vienen en una miríada de diferentes variedades. Algunos ejemplos son los agricultores locales.
 
 Estos mercados pueden existir en espacio físico o virtual.
+En el análisis empresarial, la frontera de posibilidades de producción (PPF) es una curva que ilustra las variaciones en las cantidades que se pueden producir de dos productos si ambos dependen del mismo recurso finito para su fabricación.
+
+PPF también juega un papel crucial en la economía. Se puede usar para demostrar el punto de que la economía de cualquier nación alcanza su mayor nivel de eficiencia cuando produce solo lo que está mejor calificado para producir y comercia con otras naciones por el resto de lo que necesita.
+
+El PPF también se conoce como la curva de posibilidad de producción o la curva de transformación.
+
+```{r cars}
+# Graficar una frontera de posibilidades de producción
+library("ggplot2")
+#Contamos con 10,000 unidades de producción, eso nos permite producir 100 unidades de producto Y o 100 de producto X.
+eq = function(x){(10000 - x^2)^(1/2)}
+ggplot(data.frame(x=c(0, 100)), aes(x=x)) + 
+  stat_function(fun=eq)
+
+eq = function(x){(25 - x^2)^(1/2)}
+ggplot(data.frame(x=c(0, 5)), aes(x=x)) + 
+  stat_function(fun=eq)
+```
+
 
 # Empresas y consumidores
 En esta sección, describimos cómo las empresas y los consumidores generalmente se modelan en la teoría de organización industrial. 
