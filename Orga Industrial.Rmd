@@ -73,6 +73,16 @@ Las empresas son esencialmente asociado a un programa de maximización de gananc
 
 #### La función de producción CES
 
+### 2.1 Maximización de ganancias
+
+#### La función de ganancias para la tecnología Cobb-Douglas
+
+#### 2.3 Propiedades de las funciones de demanda y oferta.
+
+#### 2.4 Estática comparativa utilizando las condiciones de primer orden
+
+### FUNCION DE BENEFICIOS
+
 
 ## Los consumidores
 Los consumidores como tomadores de decisiones. Por lo general, suponemos que los consumidores son racionales en el sentido de que eligen lo que les gusta
