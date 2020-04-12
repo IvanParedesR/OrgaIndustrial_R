@@ -2,7 +2,11 @@
 title: "Organización Industrial"
 author: "Iván Paredes"
 date: "10/4/2020"
-output: pdf_document
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 4
+bibliography: biblioGame.bib
 ---
 
 ```{r setup, include=FALSE}
