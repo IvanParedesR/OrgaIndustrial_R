@@ -25,7 +25,7 @@ Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores 
 Los mercados permiten a compradores y vendedores intercambiar bienes y servicios a cambio de un dinero pago. Los mercados vienen en una miríada de diferentes variedades. Algunos ejemplos son los agricultores locales.
 
 Estos mercados pueden existir en espacio físico o virtual.
-En el análisis empresarial, la frontera de posibilidades de producción (PPF) es una curva que ilustra las variaciones en las cantidades que se pueden producir de dos productos si ambos dependen del mismo recurso finito para su fabricación.
+El análisis empresarial, la frontera de posibilidades de producción (PPF) es una curva que ilustra las variaciones en las cantidades que se pueden producir de dos productos si ambos dependen del mismo recurso finito para su fabricación.
 
 PPF también juega un papel crucial en la economía. Se puede usar para demostrar el punto de que la economía de cualquier nación alcanza su mayor nivel de eficiencia cuando produce solo lo que está mejor calificado para producir y comercia con otras naciones por el resto de lo que necesita.
 
@@ -54,11 +54,12 @@ Las empresas son esencialmente asociado a un programa de maximización de gananc
 ## Tecnología
 
 ### tecnología Cobb-Douglas
+La función Cobb-Douglas es una forma de función de producción, ampliamente usada para representar las relaciones entre un producto y las variaciones de los insumos tecnología, trabajo y capital. Fue propuesta por Knut Wicksell (1851-1926) e investigada con respecto a la evidencia estadística concreta, por Charles Cobb y Paul Douglas en 1928.
 
 ### Tecnología Leontief
 
 ### La tasa técnica de sustitución
-
+la tasa marginal de sustitución técnica ( MRTS ), o tasa técnica de sustitución ( TRS ), es la cantidad en la que debe reducirse la cantidad de una entrada (  {\ displaystyle - \ Delta x_ {2}}- \ Delta x_ {2} ) cuando se usa una unidad adicional de otra entrada (  {\ displaystyle \ Delta x_ {1} = 1}\ Delta x_ {1} = 1 ), para que la salida permanezca constante (  {\ displaystyle y = {\ bar {y}}}y = {\ bar {y}} )
 ##### TRS para una tecnología Cobb-Douglas
 
 ### La elasticidad de sustitución
