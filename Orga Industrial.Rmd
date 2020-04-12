@@ -47,6 +47,29 @@ En esta sección, describimos cómo las empresas y los consumidores generalmente
 ## Empresas
 Las empresas son esencialmente asociado a un programa de maximización de ganancias y examinamos el componente de beneficios específicos de la empresa, es decir, su función de costos. Ingresos totales, el otro componente de ganancias, dependen de las preferencias de los consumidores (que determinan la demanda) y del tipo de interacción del mercado.
 
+## Tecnología
+
+### tecnología Cobb-Douglas
+
+### Tecnología Leontief
+
+### La tasa técnica de sustitución
+
+##### TRS para una tecnología Cobb-Douglas
+
+### La elasticidad de sustitución
+
+#### La elasticidad de sustitución para el programa Cobb-Douglas función de ducción
+
+### Vuelve a escala
+
+#### Retornos a escala y la tecnología Cobb-Douglas
+
+##### Tecnologías homogéneas y homotéticas
+
+#### La función de producción CES
+
+
 ## Los consumidores
 Los consumidores como tomadores de decisiones. Por lo general, suponemos que los consumidores son racionales en el sentido de que eligen lo que les gusta
 mejor. No tratamos situaciones en las que los consumidores eligen sistemáticamente lo que no está en su mejor interés, dada la información disponible en el momento en que tienen que tomar su decisión. Si bien esta suposición se hace ampliamente en los modelos económicos, puede cuestionarse fácilmente.
