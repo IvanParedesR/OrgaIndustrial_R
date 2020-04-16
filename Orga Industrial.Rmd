@@ -106,6 +106,14 @@ Ciertamente, los consumidores cometen errores de vez en cuando. Es posible que q
 ## Casos especiales
 
 ## Subastas
+
+Una subasta es un proceso de compra y venta de bienes o servicios. Se ofera un bien y se oyen ofertas, vendiendo el artículo al mejor postor, es decir quien hizo la mejor ofera. 
+Existen algunas excepciones a esta definición. La rama de la teoría económica que se ocupa de los tipos de subasta y el comportamiento de los participantes en las subastas se llama teoría de la subastas.
+
+La subasta abierta de precios ascendentes es posiblemente la forma más común de subasta en uso a lo largo de la historia. Los participantes ofertan abiertamente uno contra el otro, y cada oferta posterior debe ser más alta que la oferta anterior. Un subastador puede anunciar los precios, los licitantes pueden presentar sus ofertas por sí mismos o hacer que un representante convoque una oferta en su nombre, o las ofertas pueden presentarse electrónicamente con la oferta actual más alta mostrada públicamente.
+
+Las subastas se aplicaron y se aplican al comercio en diversos contextos. Estos contextos son antigüedades , pinturas , objetos de colección raros, vinos caros, productos básicos , ganado , espectro de radio , automóviles usados , incluso comercio de emisiones y muchos más.
+
 ### Clasificación de las subastas
 ### Diseño de la subasta
 ####  Bases del concurso
