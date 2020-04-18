@@ -21,6 +21,9 @@ La Organización industrial  es un campo o área de conocimiento de teoría de l
 
 Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores y estableció el paradigma conocido como: "Estructura-Conducta-Resultados" como el elemento básico de análisis y evaluación de los mercados y para investigar las relaciones entre la estructura industrial y los resultados obtenidos por el subsector correspondiente. economía de la información, las barreras de entrada de nuevas empresas en una situación de competencia imperfecta y monopolio.
 
+El nombre de "Organización industrial" y surgieron de Harvard.
+  En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. @article{grether1970industrial}
+
 # Mercados
 Los mercados permiten a compradores y vendedores intercambiar bienes y servicios a cambio de un dinero pago. Los mercados vienen en una miríada de diferentes variedades. Algunos ejemplos son los agricultores locales.
 
@@ -95,7 +98,33 @@ Ciertamente, los consumidores cometen errores de vez en cuando. Es posible que q
 
 \[ x^n + y^n = z^n \]
 
+### Maximización de la utilidad
+La teoría del comportamiento del consumidor utiliza la ley de la utilidad marginal decreciente para explicar cómo los consumidores asignan sus ingresos. El modelo de maximización de la utilidad se basa en los siguientes supuestos:
+1. Se supone que los consumidores son racionales, tratando de obtener el mayor valor por su dinero.
+
+2. Los ingresos de los consumidores son limitados porque sus recursos individuales son limitados. Se enfrentan a una restricción presupuestaria.
+
+3. Los consumidores tienen preferencias claras para diversos bienes y servicios, por lo tanto conocen su MU para cada unidad sucesiva del producto.
+
+4. Cada artículo tiene una etiqueta de precio. Los consumidores deben elegir entre productos alternativos con sus ingresos monetarios limitados.
+
+\[x \in \mathbb{R}^L_+ \ .\]
+
+
 ### Excedente del consumidor
+
+El excedente del consumidor es una medida económica de los beneficios para el consumidor. El excedente del consumidor ocurre cuando el precio que los consumidores pagan por un producto o servicio es menor que el precio que están dispuestos a pagar. Es una medida del beneficio adicional que reciben los consumidores porque están pagando menos por algo de lo que estaban dispuestos a pagar.
+
+Un excedente del consumidor ocurre cuando el consumidor está dispuesto a pagar más por un producto dado que el precio de mercado actual.
+
+
+
+#### Variaciones compensatorias y equivalentes
+
+#### Utilidad cuasilineal
+#### Utilidad cuasilineal y utilidad de métrica monetaria
+
+
 ### Demanda de un bien discreto 
 
 ### Utilidad de construcción a partir de la demanda
@@ -109,6 +138,11 @@ Ciertamente, los consumidores cometen errores de vez en cuando. Es posible que q
 
 Una subasta es un proceso de compra y venta de bienes o servicios. Se ofera un bien y se oyen ofertas, vendiendo el artículo al mejor postor, es decir quien hizo la mejor ofera. 
 Existen algunas excepciones a esta definición. La rama de la teoría económica que se ocupa de los tipos de subasta y el comportamiento de los participantes en las subastas se llama teoría de la subastas.
+
+```{r}
+
+```
+
 
 La subasta abierta de precios ascendentes es posiblemente la forma más común de subasta en uso a lo largo de la historia. Los participantes ofertan abiertamente uno contra el otro, y cada oferta posterior debe ser más alta que la oferta anterior. Un subastador puede anunciar los precios, los licitantes pueden presentar sus ofertas por sí mismos o hacer que un representante convoque una oferta en su nombre, o las ofertas pueden presentarse electrónicamente con la oferta actual más alta mostrada públicamente.
 
