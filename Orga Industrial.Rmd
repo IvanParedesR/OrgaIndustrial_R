@@ -19,10 +19,10 @@ La Organización industrial  es un campo o área de conocimiento de teoría de l
 
 # Historia 
 
-Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores y estableció el paradigma conocido como: "Estructura-Conducta-Resultados" como el elemento básico de análisis y evaluación de los mercados y para investigar las relaciones entre la estructura industrial y los resultados obtenidos por el subsector correspondiente. economía de la información, las barreras de entrada de nuevas empresas en una situación de competencia imperfecta y monopolio.
+Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores y estableció el paradigma conocido como: Estructura-Conducta-Resultados como el elemento básico de análisis y evaluación de los mercados y para investigar las relaciones entre la estructura industrial y los resultados obtenidos por el subsector correspondiente. economía de la información, las barreras de entrada de nuevas empresas en una situación de competencia imperfecta y monopolio.
 
 El nombre de "Organización industrial" y surgieron de Harvard.
-  En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. @article{grether1970industrial}
+  En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. @{grether1970industrial}
 
 # Mercados
 Los mercados permiten a compradores y vendedores intercambiar bienes y servicios a cambio de un dinero pago. Los mercados vienen en una miríada de diferentes variedades. Algunos ejemplos son los agricultores locales.
@@ -108,7 +108,7 @@ La teoría del comportamiento del consumidor utiliza la ley de la utilidad margi
 
 4. Cada artículo tiene una etiqueta de precio. Los consumidores deben elegir entre productos alternativos con sus ingresos monetarios limitados.
 
-\[x \in \mathbb{R}^L_+ \ .\]
+\[x\]
 
 
 ### Excedente del consumidor
