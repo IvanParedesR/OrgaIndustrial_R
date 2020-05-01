@@ -15,14 +15,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Organización Industrial
 
-La Organización industrial  es un campo o área de conocimiento de teoría de la empresa que trata de los sistemas productivos y de la relación y límites entre las estructuras de las empresas y los mercados. Trata asuntos como la competencia perfecta, el costo de las transacciones, acción de gobierno o dirección.
+La Organización industrial, es una rama de la microecnomía dedicada a analizar a la empresa que trata de los sistemas productivos y de la relación y límites entre las estructuras de las empresas y los mercados. Trata asuntos como la competencia perfecta, el costo de las transacciones, acción de gobierno o dirección.
+
 
 # Historia 
 
 Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores y estableció el paradigma conocido como: Estructura-Conducta-Resultados como el elemento básico de análisis y evaluación de los mercados y para investigar las relaciones entre la estructura industrial y los resultados obtenidos por el subsector correspondiente. economía de la información, las barreras de entrada de nuevas empresas en una situación de competencia imperfecta y monopolio.
 
 El nombre de "Organización industrial" y surgieron de Harvard.
-  En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. [@grether1970industrial]
+En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. [@grether1970industrial]
+
+## Microeconomía Heteodoxa
+
+
+
 
 # Mercados
 Los mercados permiten a compradores y vendedores intercambiar bienes y servicios a cambio de un dinero pago. Los mercados vienen en una miríada de diferentes variedades. Algunos ejemplos son los agricultores locales.
@@ -47,12 +53,36 @@ ggplot(data.frame(x=c(0, 5)), aes(x=x)) +
   stat_function(fun=eq)
 ```
 
+## Conceptos básicos en la definición del mercado 
+
+### Diferencias de nivel de precios y correlaciones de precios 
+
+
+### Experimentos naturales 185
+
+
+
+### Estimación directa del efecto de sustitución 191
+
+
+### Uso de datos de envío para la definición de mercado geográfico
+
+
+### Medición de restricciones de precios 201
+
+
 
 # Empresas y consumidores
 En esta sección, describimos cómo las empresas y los consumidores generalmente se modelan en la teoría de organización industrial. 
 
-## Empresas
+## Las Empresas
 Las empresas son esencialmente asociado a un programa de maximización de ganancias y examinamos el componente de beneficios específicos de la empresa, es decir, su función de costos. Ingresos totales, el otro componente de ganancias, dependen de las preferencias de los consumidores (que determinan la demanda) y del tipo de interacción del mercado.
+
+# Los costos 
+## Ingresos contables y económicos, costos y ganancias
+## Estimación de las funciones de producción y costos
+## Aproximaciones alternativas
+## Costos y estructura del mercado
 
 ## Tecnología
 
@@ -130,6 +160,9 @@ Un excedente del consumidor ocurre cuando el consumidor está dispuesto a pagar 
 ### Utilidad de construcción a partir de la demanda
 #### Otras interpretaciones del excedente del consumidor
 
+
+
+
 # Equilibrio
 
 ## Casos especiales
@@ -179,7 +212,13 @@ Battle of the sexes ( BoS ) es un juego de coordinación de dos jugadores. Algun
 
 Imagine una pareja que acordó reunirse esta noche, pero no puede recordar si asistirán a la ópera o un partido de fútbol (y el hecho de que se olvidaron es de conocimiento común ). El esposo preferiría ir al partido de fútbol. La esposa preferiría ir a la ópera. Ambos preferirían ir al mismo lugar en lugar de diferentes. Si no pueden comunicarse, ¿a dónde deben ir?
 
+## Oligopolio de Bertrand
 
+La competencia de Bertrand es un modelo, llamado así por Joseph Louis François Bertrand (1822–1900). Describe las interacciones entre empresas (vendedores) que establecen precios y sus clientes (compradores) que eligen cantidades a los precios establecidos. El modelo fue formulado en 1883 por Bertrand en una revisión del libro de Antoine Augustin Cournot Recherches sur les Principes Mathématiques de la Théorie des Richesses (1838) en el que Cournot había presentado el modelo de Cournot.
+
+Cournot argumentó que cuando las empresas eligen cantidades, el resultado de equilibrio implica que las empresas valoren por encima del costo marginal y, por lo tanto, del precio competitivo. En su revisión, Bertrand argumentó que si las empresas eligen precios en lugar de cantidades, entonces el resultado competitivo ocurriría con un precio igual al costo marginal. El modelo no fue formalizado por Bertrand: sin embargo, la idea fue desarrollada en un modelo matemático por Francis Ysidro Edgeworth en 1889.
+
+# Subastas
  
 ### Clasificación de las subastas
 
@@ -192,3 +231,19 @@ Imagine una pareja que acordó reunirse esta noche, pero no puede recordar si as
 
 ### Diseño de la subasta
 ####  Bases del concurso
+
+## Estrategia y conductas de negocios
+
+### Precios no uniformes 
+
+### Incentivo y condiciones para la Discriminación de precios
+
+
+### Comportamiento estratégico no cooperativo
+#### Precios depredadores
+#### Límite de precios
+#### Inversiones para reducir los costos de producción 
+#### Elevar los costos de los rivales 
+
+
+## Datos para Mexico
