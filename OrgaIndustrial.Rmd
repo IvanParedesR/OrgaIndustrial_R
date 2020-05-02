@@ -18,12 +18,12 @@ knitr::opts_chunk$set(echo = TRUE)
 La Organización industrial, es una rama de la microecnomía dedicada a analizar a la empresa que trata de los sistemas productivos y de la relación y límites entre las estructuras de las empresas y los mercados. Trata asuntos como la competencia perfecta, el costo de las transacciones, acción de gobierno o dirección.
 
 
+
 # Historia 
 
 Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores y estableció el paradigma conocido como: Estructura-Conducta-Resultados como el elemento básico de análisis y evaluación de los mercados y para investigar las relaciones entre la estructura industrial y los resultados obtenidos por el subsector correspondiente. economía de la información, las barreras de entrada de nuevas empresas en una situación de competencia imperfecta y monopolio.
 
-El nombre de "Organización industrial" y surgieron de Harvard.
-En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. [@grether1970industrial]
+El nombre de "Organización industrial" y surgieron de Harvard. En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. [@grether1970industrial]
 
 ## Microeconomía Heteodoxa
 
@@ -33,8 +33,7 @@ En Harvard y en otros lugares, una variedad de descriptivos cursos institucional
 # Mercados
 Los mercados permiten a compradores y vendedores intercambiar bienes y servicios a cambio de un dinero pago. Los mercados vienen en una miríada de diferentes variedades. Algunos ejemplos son los agricultores locales.
 
-Estos mercados pueden existir en espacio físico o virtual.
-El análisis empresarial, la frontera de posibilidades de producción (PPF) es una curva que ilustra las variaciones en las cantidades que se pueden producir de dos productos si ambos dependen del mismo recurso finito para su fabricación.
+Estos mercados pueden existir en espacio físico o virtual. El análisis empresarial, la frontera de posibilidades de producción (PPF) es una curva que ilustra las variaciones en las cantidades que se pueden producir de dos productos si ambos dependen del mismo recurso finito para su fabricación.
 
 PPF también juega un papel crucial en la economía. Se puede usar para demostrar el punto de que la economía de cualquier nación alcanza su mayor nivel de eficiencia cuando produce solo lo que está mejor calificado para producir y comercia con otras naciones por el resto de lo que necesita.
 
@@ -55,20 +54,26 @@ ggplot(data.frame(x=c(0, 5)), aes(x=x)) +
 
 ## Conceptos básicos en la definición del mercado 
 
+Baker señala y con razón que la mayoría de los casos resueltos por la Corte Suprema de los EE. UU. sobre competencia economica son analizados y disputados más por la definición de mercado que por la práctica cuestionada o el poder de mercado. [@baker2007market]
+
+
+
+[@davis2009quantitative]
+
 ### Diferencias de nivel de precios y correlaciones de precios 
 
 
-### Experimentos naturales 185
+### Experimentos naturales
 
 
 
-### Estimación directa del efecto de sustitución 191
+### Estimación directa del efecto de sustitución
 
 
 ### Uso de datos de envío para la definición de mercado geográfico
 
 
-### Medición de restricciones de precios 201
+### Medición de restricciones de precios
 
 
 
@@ -78,9 +83,23 @@ En esta sección, describimos cómo las empresas y los consumidores generalmente
 ## Las Empresas
 Las empresas son esencialmente asociado a un programa de maximización de ganancias y examinamos el componente de beneficios específicos de la empresa, es decir, su función de costos. Ingresos totales, el otro componente de ganancias, dependen de las preferencias de los consumidores (que determinan la demanda) y del tipo de interacción del mercado.
 
-# Los costos 
+
+
+### Los costos 
+Para producir una empresa puede elegir una cierta combinación de insumos, esto conforme al precio relativo de los factores y las opciones y objetivos de las empresas. 
+
+
+
+
 ## Ingresos contables y económicos, costos y ganancias
+
+Para estimar econométricamente las funciones de costos, un analista normalmente necesitará acceso a los datos de costos (en el capítulo se exploraron alternativas que utilizan datos de producción y demanda de insumos). [@davis2009quantitative]
+
+
 ## Estimación de las funciones de producción y costos
+
+La estimación tradicional de las funciones de costo y producción puede ser una tarea compleja que plantea una serie de problemas difíciles. Junto con la obtención de datos apropiados, uno debe combinar un marco teórico sólido que genere una o más ecuaciones de estimación con técnicas econométricas apropiadas. Introducimos los principales problemas empíricos en la estimación de costos y procedemos a discutir algunos ejemplos ilustrativos seminales que ayudan a ilustrar ambos Los problemas y la utilidad del enfoque.
+
 ## Aproximaciones alternativas
 ## Costos y estructura del mercado
 
@@ -241,6 +260,9 @@ Cournot argumentó que cuando las empresas eligen cantidades, el resultado de eq
 
 ### Comportamiento estratégico no cooperativo
 #### Precios depredadores
+
+
+
 #### Límite de precios
 #### Inversiones para reducir los costos de producción 
 #### Elevar los costos de los rivales 
