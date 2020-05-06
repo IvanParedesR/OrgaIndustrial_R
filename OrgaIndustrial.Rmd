@@ -20,12 +20,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 La Organización industrial, es una rama de la microecnomía dedicada a analizar a la empresa que trata de los sistemas productivos y de la relación y límites entre las estructuras de las empresas y los mercados. Trata asuntos como la competencia perfecta, el costo de las transacciones, acción de gobierno o dirección.
 
-
 # Historia 
 
 Fue Bain (1968) quien sistematizó los aportes realizados por numerosos autores y estableció el paradigma conocido como: Estructura-Conducta-Resultados como el elemento básico de análisis y evaluación de los mercados y para investigar las relaciones entre la estructura industrial y los resultados obtenidos por el subsector correspondiente. economía de la información, las barreras de entrada de nuevas empresas en una situación de competencia imperfecta y monopolio.
 
 El nombre de "Organización industrial" y surgieron de Harvard. En Harvard y en otros lugares, una variedad de descriptivos cursos institucionales habían aparecido en tales campos como servicios públicos, fideicomisos, corporaciones, organizaciones financieras n, agricultura y comercialización. Típicamente, estos cursos no se integraron con la economía. [@grether1970industrial]
+
+## Condiciones historicas
+
+## Pioneros en Europa
+
+## Pioneros en America
 
 ## Microeconomía Heteodoxa
 
