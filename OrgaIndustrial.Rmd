@@ -15,8 +15,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Organización Industrial
 
-La Organización industrial, es una rama de la microecnomía dedicada a analizar a la empresa que trata de los sistemas productivos y de la relación y límites entre las estructuras de las empresas y los mercados. Trata asuntos como la competencia perfecta, el costo de las transacciones, acción de gobierno o dirección.
+> Un país, una civilización se puede juzgar por la forma en que trata a sus animales.  — Mahatma Gandhi
 
+
+La Organización industrial, es una rama de la microecnomía dedicada a analizar a la empresa que trata de los sistemas productivos y de la relación y límites entre las estructuras de las empresas y los mercados. Trata asuntos como la competencia perfecta, el costo de las transacciones, acción de gobierno o dirección.
 
 
 # Historia 
