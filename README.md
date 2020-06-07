@@ -10,18 +10,10 @@ Desde la estimación de Demanda, simulación de estructuras, Teoría de Juegos, 
 
 ## Teoría del Consumidor
 
-### Preferencias
-#### Supuestos de las preferecias
-#### Curvas de Indiferencias
+## Teoría de la Firma
 
-## Firmas
 ### Costos
 
 ## Mercados
 
-1.1 Why Demand Analysis/Estimation? 
-1.2 Demand importance
-1.3 Simulation
-
-## Game Theory
-2.1 Oligopolio
+## Teoría de Juegos
