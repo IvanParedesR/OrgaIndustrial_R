@@ -149,6 +149,18 @@ Los consumidores como tomadores de decisiones. Por lo general, suponemos que los
 mejor. No tratamos situaciones en las que los consumidores eligen sistemáticamente lo que no está en su mejor interés, dada la información disponible en el momento en que tienen que tomar su decisión. Si bien esta suposición se hace ampliamente en los modelos económicos, puede cuestionarse fácilmente.
 Ciertamente, los consumidores cometen errores de vez en cuando. Es posible que quieran obtener un producto en particular, tome el equivocado del estante por error o haga un clic incorrecto al realizar un pedido desde un minorista en línea. Aunque los consumidores tienen la intención de elegir lo que más les gusta, pueden hacer errores sistemáticos en su toma de decisiones. Los economistas pueden lidiar con este tipo de error. Tal los errores (que son idiosincrásicos en la población) conducen a una heterogeneidad ex post entre consumidores.
 
+###  Preferencias del consumidor
+
+El concepto de utilidad discutido en la sección anterior fue introducido casi al mismo tiempo, a principios de la década de 1870, por William Stanley Jevons de Gran Bretaña, Carl Menger de Austria y Léon Walras de Francia. Creían que la utilidad que un individuo recibe por consumir cada cantidad de un bien o canasta de bienes podría medirse de forma cardinal al igual que el peso, la altura o la temperatura.
+La utilidad cardinal significa que un individuo puede adjuntar valores específicos o números de utilidades al consumir cada cantidad de un bien o cesta de bienes.
+
+#### Curvas de indiferencia
+
+Una curva de indiferencia muestra las diversas combinaciones de dos bienes que le dan al consumidor la misma utilidad o satisfacción. Una curva de indiferencia más alta se refiere a un mayor nivel de satisfacción, y una curva de indiferencia más baja se refiere a una menor satisfacción. Sin embargo, no tenemos indicación de cuánta satisfacción o utilidad adicional indica una curva de indiferencia más alta. Es decir, las diferentes curvas de indiferencia simplemente proporcionan un orden o clasificación de la preferencia del individuo.
+
+##### Características de las curvas de indiferencia
+Las curvas de indiferencia suelen tener una pendiente negativa, no pueden cruzarse y son convexas al origen (ver Figura 3.2). Las curvas de indiferencia tienen pendiente negativa porque si una canasta de bienes X e Y contiene más de X, tendrá que contener menos Y que otra canasta para que las dos canastas den el mismo nivel de satisfacción y estén en la misma curva de indiferencia . Por ejemplo, dado que la cesta B en la curva de indiferencia U1 en la Figura 3.2 contiene más hamburguesas (buena X) que la cesta A, la cesta B debe contener menos refrescos (buena Y) para que el consumidor esté en la curva de indiferencia U
+
 \(x^2 + y^2 = z^2\) 
 
 
