@@ -266,17 +266,26 @@ Cournot argumentó que cuando las empresas eligen cantidades, el resultado de eq
  
 ### Clasificación de las subastas
 
-1. Subastas de oferta ascendente, también llamadas subastas inglesas. Estas subastas se llevan a cabo. interactivamente en tiempo real, con postores presentes ya sea física o electrónicamente. los el vendedor aumenta gradualmente el precio, los postores abandonan hasta que finalmente solo queda un postor, y ese postor gana el objeto a este precio final. Subastas orales en las que los oferentes gritar precios, o enviarlos electrónicamente, son formas de subastas de oferta ascendente.
+Subastas de oferta ascendente, también llamadas subastas inglesas. Estas subastas se llevan a cabo. interactivamente en tiempo real, con postores presentes ya sea física o electrónicamente. los el vendedor aumenta gradualmente el precio, los postores abandonan hasta que finalmente solo queda un postor, y ese postor gana el objeto a este precio final. Subastas orales en las que los oferentes gritar precios, o enviarlos electrónicamente, son formas de subastas de oferta ascendente.
 
-2. Subastas de oferta descendente, también llamadas subastas holandesas. Esta es también una subasta interactiva formato, en el que el vendedor baja gradualmente el precio desde un alto valor inicial hasta el primer momento en que un postor acepta y paga el precio actual. Estas subastas se llaman subastas holandesas porque las flores se han vendido durante mucho tiempo en los Países Bajos utilizando este procedimiento.
-3. Subastas de oferta sellada de primer precio. En este tipo de subasta, los licitantes presentan simultáneamente "Ofertas selladas" al vendedor. La terminología proviene del formato original para tal subastas, en las cuales las ofertas se anotaron y se entregaron en sobres sellados a vendedor, que luego los abriría todos juntos. El mejor postor gana el objeto y paga el valor de su oferta.
+Subastas de oferta descendente, también llamadas subastas holandesas. Esta es también una subasta interactiva formato, en el que el vendedor baja gradualmente el precio desde un alto valor inicial hasta el primer momento en que un postor acepta y paga el precio actual. Estas subastas se llaman subastas holandesas porque las flores se han vendido durante mucho tiempo en los Países Bajos utilizando este procedimiento.
 
-4. Subastas de oferta sellada de segundo precio, también llamadas subastas Vickrey. Los postores presentan ofertas selladas simultáneas a los vendedores; el mejor postor gana el objeto y paga el valor de la segunda oferta más alta. Estas subastas se llaman subastas Vickrey en honor de William Vickrey, quien escribió el primer análisis de subastas de teoría de juegos (incluyendo la subasta de segundo precio). Vickery ganó el Premio Nobel de Economía en 1996 para este cuerpo de trabajo.
+Subastas de oferta sellada de primer precio. En este tipo de subasta, los licitantes presentan simultáneamente "Ofertas selladas" al vendedor. La terminología proviene del formato original para tal subastas, en las cuales las ofertas se anotaron y se entregaron en sobres sellados a vendedor, que luego los abriría todos juntos. El mejor postor gana el objeto y paga el valor de su oferta.
+
+Subastas de oferta sellada de segundo precio, también llamadas subastas Vickrey. Los postores presentan ofertas selladas simultáneas a los vendedores; el mejor postor gana el objeto y paga el valor de la segunda oferta más alta. Estas subastas se llaman subastas Vickrey en honor de William Vickrey, quien escribió el primer análisis de subastas de teoría de juegos (incluyendo la subasta de segundo precio). Vickery ganó el Premio Nobel de Economía en 1996 para este cuerpo de trabajo.
 
 ### Diseño de la subasta
 ####  Bases del concurso
+Las subastas se han vuelto enormemente populares en los últimos años. Los gobiernos ahora están especialmente interesados en utilizar subastas para vender licencias de teléfonos móviles, operar mercados de electricidad descentralizados, privatizar empresas y para muchos otros fines. El crecimiento del comercio electrónico ha dado lugar a muchas subastas de negocios entre empresas para bienes cuyo comercio se negoció previamente de forma bilateral.
+
+Los economistas están orgullosos de su papel en impulsar las subastas; Por ejemplo, Coase (1959) fue uno de los primeros en abogar por la subasta del espectro radioeléctrico. Pero muchas subastas, incluidas algunas diseñadas con la ayuda de destacados economistas académicos, han funcionado muy mal
+
+##### Problemas
+
+Un primer conjunto importante de preocupaciones para el diseño práctico de la subasta implica el riesgo de que los participantes puedan coludir explícita o tácitamente para evitar aumentar los precios. Considere una subasta ascendente de unidades múltiples (simultáneas).(@klemperer2002really)
 
 ## Estrategia y conductas de negocios
+
 
 ### Precios no uniformes 
 
