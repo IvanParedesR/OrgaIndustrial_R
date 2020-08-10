@@ -294,7 +294,7 @@ Un primer conjunto importante de preocupaciones para el diseño práctico de la 
 
 ### Comportamiento estratégico no cooperativo
 #### Precios depredadores
-
+La teoría tradicional de los precios predatorios es sencilla. El depredador, ya dominante firme, fija sus precios tan bajos durante un período de tiempo suficiente que sus competidores abandonan el mercado y otros están disuadidos de entrar. Suponiendo que el depredador y sus víctimas son empresas igualmente eficientes, esto implica que tanto el depredador como sus víctimas han sufrido pérdidas y que estas pérdidas son significativas. por la depredación para ser racional, debe haber alguna expectativa de que estas pérdidas presentes (o ganancias perdidas), como cualquier inversión, se compensará con ganancias futuras.
 
 
 #### Límite de precios
