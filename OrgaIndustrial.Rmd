@@ -159,6 +159,7 @@ La utilidad cardinal significa que un individuo puede adjuntar valores específi
 Una curva de indiferencia muestra las diversas combinaciones de dos bienes que le dan al consumidor la misma utilidad o satisfacción. Una curva de indiferencia más alta se refiere a un mayor nivel de satisfacción, y una curva de indiferencia más baja se refiere a una menor satisfacción. Sin embargo, no tenemos indicación de cuánta satisfacción o utilidad adicional indica una curva de indiferencia más alta. Es decir, las diferentes curvas de indiferencia simplemente proporcionan un orden o clasificación de la preferencia del individuo.
 
 ##### Características de las curvas de indiferencia
+
 Las curvas de indiferencia suelen tener una pendiente negativa, no pueden cruzarse y son convexas al origen (ver Figura 3.2). Las curvas de indiferencia tienen pendiente negativa porque si una canasta de bienes X e Y contiene más de X, tendrá que contener menos Y que otra canasta para que las dos canastas den el mismo nivel de satisfacción y estén en la misma curva de indiferencia . Por ejemplo, dado que la cesta B en la curva de indiferencia U1 en la Figura 3.2 contiene más hamburguesas (buena X) que la cesta A, la cesta B debe contener menos refrescos (buena Y) para que el consumidor esté en la curva de indiferencia U
 
 \(x^2 + y^2 = z^2\) 
