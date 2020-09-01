@@ -230,6 +230,10 @@ Las subastas se aplicaron y se aplican al comercio en diversos contextos. Estos 
 
 La teoría de juegos es el estudio de modelos matemáticos de interacción estratégica entre tomadores de decisiones racionales. Tiene aplicaciones en todos los campos de las ciencias sociales, así como en la lógica, la ciencia de sistemas y la informática. Originalmente, abordó los juegos de suma cero, en los que las ganancias o pérdidas de cada participante se equilibran exactamente con las de los otros participantes. Hoy en día, la teoría de juegos se aplica a una amplia gama de relaciones de comportamiento, y ahora es un término general para la ciencia de la toma de decisiones lógicas en humanos, animales y computadoras.
 
+La teoría de juegos no puede resolver todos los problemas del mundo, porque solo funciona cuando la gente juega de manera racional.
+
+El primer resultado en la teoría de juegos fue el teorema minimax de John Von Neumann, que se aplica solo a juegos como Matching Pennies en los que los jugadores son modelados como enemigos implacables.
+
 En este sentido, el uso de herramientas técnologícas es cada vez más necesario. Actualmente hay muchas herramientas que pueden ayudarnos a resolver y analizar juegos cada vez más complejos.
 
 ### Axelrof
