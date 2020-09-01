@@ -236,7 +236,7 @@ En este sentido, el uso de herramientas técnologícas es cada vez más necesari
 
 Puedes crear tu propia partida entre dos jugadores usando la clase Match. Esto suele ser útil al diseñar nuevas estrategias para estudiar cómo se desempeñan contra oponentes específicos.
 
-Por ejemplo, para crear una coincidencia de 5 turnos entre Cooperator y Alternator:
+Por ejemplo, para crear una coincidencia de 5 turnos entre Cooperator y Jugador aleatorio:
 
 ```{python}
 import axelrod as axl
@@ -245,6 +245,43 @@ match = axl.Match(players, 5)
 match.play()
 ```
 
+El primer elemento de cada tupla es la acción realizada por Cooperator y el segundo por Jugador aleatorio. De hecho, podemos ver que Cooperator jugó C durante los cinco turnos.
+
+El azar es una estrategia estocástica y sus acciones dependen de una probabilidad. Podemos ver que la estrategia cooperó solo en el tercer y cuarto turno.
+
+El partido entre las dos estrategias está siendo sembrado. Eso se debe a la línea axl.seed (0). Esto significa que no importa cuántas veces ejecute la coincidencia anterior, los resultados seguirán siendo los mismos.
+
+¡El azar es una estrategia estocástica y, por lo tanto, las acciones de la estrategia pueden ser diferentes incluso para el mismo oponente! Podemos ver esto ejecutando un partido con una semilla diferente.
+
+```{python}
+axl.seed(1)
+players = (axl.Cooperator(), axl.Random())
+match = axl.Match(players, turns=5)
+results = match.play()
+results
+```
+
+Ahora Random también cooperó en el primer turno. Intente cambiar la semilla y observe otros comportamientos de la estrategia.
+
+Hay varias medidas que se pueden obtener de un partido. Consideremos la coincidencia entre las estrategias para axl.seed (0)
+
+```{python}
+axl.seed(0)
+players = (axl.Cooperator(), axl.Random())
+match = axl.Match(players, turns=5)
+results = match.play()
+```
+
+
+```{python}
+scores = match.scores()
+scores
+```
+
+
+```{python}
+match.final_score_per_turn()
+```
 
 
 ## Forma compacta
