@@ -230,6 +230,23 @@ Las subastas se aplicaron y se aplican al comercio en diversos contextos. Estos 
 
 La teoría de juegos es el estudio de modelos matemáticos de interacción estratégica entre tomadores de decisiones racionales. Tiene aplicaciones en todos los campos de las ciencias sociales, así como en la lógica, la ciencia de sistemas y la informática. Originalmente, abordó los juegos de suma cero, en los que las ganancias o pérdidas de cada participante se equilibran exactamente con las de los otros participantes. Hoy en día, la teoría de juegos se aplica a una amplia gama de relaciones de comportamiento, y ahora es un término general para la ciencia de la toma de decisiones lógicas en humanos, animales y computadoras.
 
+En este sentido, el uso de herramientas técnologícas es cada vez más necesario. Actualmente hay muchas herramientas que pueden ayudarnos a resolver y analizar juegos cada vez más complejos.
+
+### Axelrof
+
+Puedes crear tu propia partida entre dos jugadores usando la clase Match. Esto suele ser útil al diseñar nuevas estrategias para estudiar cómo se desempeñan contra oponentes específicos.
+
+Por ejemplo, para crear una coincidencia de 5 turnos entre Cooperator y Alternator:
+
+```{python}
+import axelrod as axl
+players = (axl.Cooperator(), axl.Alternator())
+match = axl.Match(players, 5)
+match.play()
+```
+
+
+
 ## Forma compacta
 
 ## Forma extensiva
