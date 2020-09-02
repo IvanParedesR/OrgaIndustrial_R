@@ -28,6 +28,16 @@ El nombre de "Organización industrial" y surgieron de Harvard. En Harvard y en 
 
 ## Condiciones historicas
 
+El núcleo del campo se trata de: (i) la competencia, la fuerza impulsora de la mayoría de los mercados modernos, y (ii) el poder monopolístico, que interfiere con los buenos resultados de la competencia.
+El campo también tiene un aspecto de política pública. Los pioneros han analizado las políticas que intentan prevenir el monopolio o curar o frenar el monopolio una vez que existe. Las políticas han incluido principalmente: antimonopolio, para prevenir o reducir el poder monopólico; regulación para frenar los monopolios naturales ”; la desregulación, que elimina las restricciones, con la esperanza de que la competencia se haga cargo; y empresa pública, cuyo objetivo es proporcionar diversos intereses públicos cuando la competencia no funciona.
+El campo data de la década de 1870 y ha tenido un alcance mundial. Sus pioneros más conocidos desde la década de 1870 han trabajado en Europa, Gran Bretaña, Estados Unidos y Canadá.
+Los estadounidenses han desarrollado gran parte del contenido técnico del campo desde aproximadamente 1900. Pero algunas de las primeras innovaciones británicas y europeas comenzaron antes de eso, y muchas otras continuaron durante el siglo XX. También se presentan aquí.
+Aunque el tema tiene raíces antiguas, las innovaciones de la investigación moderna comenzaron principalmente en las décadas de 1880 y 1890, cuando se inventaron conceptos básicos a medida que surgió rápidamente la nueva teoría microeconómica "neoclásica". El pionero también fue impulsado por turbulencias en muchas industrias reales, donde las fusiones, las acciones anticompetitivas y las nuevas tecnologías estaban creando monopolios industriales.
+
+En respuesta a eso, también se estaban creando políticas antimonopolio y de regulación estadounidenses, como formas para que el público prevenga o controle los crecientes problemas de monopolio. Estos esfuerzos antimonopolio crearon dramas espectaculares en los Estados Unidos durante 1900 a 1920. Los funcionarios antimonopolio golpearon a la mayoría de las empresas más grandes con demandas, y nuevas comisiones reguladoras comenzaron a poner límites a los nuevos y poderosos monopolios eléctricos y telefónicos. En contraste, los gobiernos europeos y británicos en la década de 1920 alentaron una expansión masiva de cárteles, que fijaron precios y manipularon mercados en la mayoría de las industrias.
+
+En la década de 1930, el campo comenzó una fase más "moderna", con nuevas ideas técnicas, y ha habido muchos más cambios en las décadas desde entonces. Algunas de las nuevas ideas han conducido a un gran progreso, mientras que otras han tenido un valor modesto o poco, o incluso retrocesos y desvíos. Todas las innovaciones han suscitado un fuerte debate y la mayoría de las nuevas ideas han tenido como objetivo aumentar la competencia. (@de2007pioneers)
+
 ## Pioneros en Europa
 
 ## Pioneros en America
@@ -161,7 +171,7 @@ Capacitación y aprendizaje: los consumidores están capacitados para utilizar p
 Conversión de datos: cada pieza de software genera archivos que se guardan utilizando un formato digital particular. Una vez que se introduce un nuevo software, es posible que se necesite un software de conversión para poder utilizarlo. Tenga en cuenta que el costo de cambio resultante aumenta con el tiempo ya que la recopilación de datos puede aumentar con el tiempo.
 
 
-### FUNCION DE BENEFICIOS
+### Función de beneficios
 
 
 ## Los consumidores
