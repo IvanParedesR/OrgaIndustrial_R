@@ -139,7 +139,27 @@ la tasa marginal de sustitución técnica ( MRTS ), o tasa técnica de sustituci
 
 #### 2.3 Propiedades de las funciones de demanda y oferta.
 
-#### 2.4 Estática comparativa utilizando las condiciones de primer orden
+#### Estática comparativa utilizando las condiciones de primer orden
+
+
+### Industrias de Redes
+
+Las principales características de los mercados con industrias redes que los distinguen
+de otros mercados son (@shy2001economics) :
+• Complementariedad, compatibilidad y estándares.
+• Externalidades de consumo.
+• Costos de cambio y bloqueo.
+• Importantes economías de escala en la producción.
+
+#### Costos de cambios
+
+Hay varios tipos de costos de cambio que afectan el grado de
+cerrar. Shapiro y Varian (1999) proporcionan una buena clasificación de los distintos bloqueos.
+
+Contratos: los usuarios a veces están sujetos a contratos de servicio, suministro de piezas y compra de piezas de repuesto. Los costos de cambio ascienden a los daños y la compensación que debe pagar la parte que incumple el contrato.
+Capacitación y aprendizaje: los consumidores están capacitados para utilizar productos que operan con un estándar específico. Los costos de cambio incluirían el aprendizaje y la capacitación de personas, así como la pérdida de productividad resultante de la adopción de un nuevo sistema.
+Conversión de datos: cada pieza de software genera archivos que se guardan utilizando un formato digital particular. Una vez que se introduce un nuevo software, es posible que se necesite un software de conversión para poder utilizarlo. Tenga en cuenta que el costo de cambio resultante aumenta con el tiempo ya que la recopilación de datos puede aumentar con el tiempo.
+
 
 ### FUNCION DE BENEFICIOS
 
