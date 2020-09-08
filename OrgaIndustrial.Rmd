@@ -339,17 +339,28 @@ https://www.guru99.com/r-decision-trees.html
 
 ## Diferentes juegos
 
+### Dilema del prisionero
+
+
 ### Batalla de los sexos
 
 Battle of the sexes ( BoS ) es un juego de coordinación de dos jugadores. Algunos autores se refieren al juego como Bach o Stravinsky y designan a los jugadores simplemente como Jugador 1 y Jugador 2, en lugar de asignar sexo.
 
 Imagine una pareja que acordó reunirse esta noche, pero no puede recordar si asistirán a la ópera o un partido de fútbol (y el hecho de que se olvidaron es de conocimiento común ). El esposo preferiría ir al partido de fútbol. La esposa preferiría ir a la ópera. Ambos preferirían ir al mismo lugar en lugar de diferentes. Si no pueden comunicarse, ¿a dónde deben ir?
 
-## Oligopolio de Bertrand
+### Oligopolio de Bertrand
 
 La competencia de Bertrand es un modelo, llamado así por Joseph Louis François Bertrand (1822–1900). Describe las interacciones entre empresas (vendedores) que establecen precios y sus clientes (compradores) que eligen cantidades a los precios establecidos. El modelo fue formulado en 1883 por Bertrand en una revisión del libro de Antoine Augustin Cournot Recherches sur les Principes Mathématiques de la Théorie des Richesses (1838) en el que Cournot había presentado el modelo de Cournot.
 
 Cournot argumentó que cuando las empresas eligen cantidades, el resultado de equilibrio implica que las empresas valoren por encima del costo marginal y, por lo tanto, del precio competitivo. En su revisión, Bertrand argumentó que si las empresas eligen precios en lugar de cantidades, entonces el resultado competitivo ocurriría con un precio igual al costo marginal. El modelo no fue formalizado por Bertrand: sin embargo, la idea fue desarrollada en un modelo matemático por Francis Ysidro Edgeworth en 1889.
+
+### Gift-exchange game
+
+### Traveler's dilemma
+
+### Tragedia de los comunes
+
+
 
 # Subastas
  
